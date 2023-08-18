@@ -1,0 +1,41 @@
+/* import my favorite font - Nunito */
+@import url(
+    'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap'
+);
+
+/* and set it for the whole page! */
+* {
+    font-family: Nunito;
+}
+.center {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+body.dark {
+    background-color: #181a1b;
+    color: #e8e6e3;
+}
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+main ul {
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+    padding: 0;
+}
+.px20 {
+    font-size: 20px;
+}
+.px18 {
+    font-size: 16px;
+}
+.px16 {
+    font-size: 16px;
+}
+.px14 {
+    font-size: 14px;
+}
